@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 200;
+}
+
+.first svg {
+    padding: 1rem;
+}
+
+.first h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 500;
+    padding: 2vw;
+}
+
+.first h3 {
+    font-size: 25px;
+    font-weight: 200;
+    padding: 0vw 5vw;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    margin: 1vw;
+    padding: 1vw;
+}
+
+input[type="text"] {
+    background-color: #444;
+    padding: 0.5vw 1vw;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border: 2px solid #333;
+    color: white;
+}
+
+input::placeholder {
+    color: rgb(177, 177, 177);
+    /* Placeholder color */
+    opacity: 1;
+    /* Opacity of the placeholder */
+}
+
+.recipe-container {
+    /* max-width: 91%; */
+    width: 90%;
+    /* max-width: 100vw; */
+    margin: auto;
+    /* background: #fff; */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 2vw;
+}
+
+.recipe-item {
+    margin: 0.936rem 0;
+    border-bottom: 1px solid #888;
+}
+
+.recipe-cuisine {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.936rem;
+    /* background-color: #f9f9f9; */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    font-family: "Kanit", sans-serif;
+    /* text-decoration: underline; */
+    text-transform: capitalize;
+    padding: 2vw;
+    margin: 0vw 2vw;
+}
+
+.recipe-cuisine svg {
+    background-color: transparent;
+    color: white;
+    transition: all 0.6s ease;
+    margin: 0rem 0.5rem;
+}
+
+.recipe-cuisine:hover {
+    background-color: #444;
+}
+
+.recipe-list {
+    display: none;
+    padding: 15px;
+    line-height: 1.5;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5vw;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    overflow: hidden;
+    border-collapse: collapse;
+    width: 90%;
+    /* Set a width for the table */
+}
+
+/* .table table{
+    padding: 2vw;
+} */
+
+.table th {
+    font-size: 80px;
+    font-weight: 500;
+    text-align: left;
+    font-family: "Shadows Into Light", cursive;
+    text-decoration: underline;
+    text-transform: capitalize;
+    padding: 0vw 2vw;
+    margin: 2vw;
+    /* border: 1px solid white; */
+}
+
+.table img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
+    padding-right: 5vw;
+    width: 25vw;
+}
+
+.table ul {
+    list-style-type: none;
+    font-family: "Kanit", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    padding: 1vh;
+}
+
+.table a {
+    text-decoration: none;
+}
+
+.list a:hover {
+    color: #c4c4c4;
+    /* background-color: none;
+        box: 0 0 50px rgba(132, 208, 255, 0.6), 0 0 40px rgba(0, 158, 255, 0.4);
+        transition: box-shadow 0.5s ease;   */
+}

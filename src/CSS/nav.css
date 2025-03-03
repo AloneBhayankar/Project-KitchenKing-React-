@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+body {
+    height: 100vh;
+}
+
+.navbar {
+    /* width: 91vw; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+    /* z-index: 1000; */
+    /* top: 0; */
+    background-color: #333;
+    padding: 0px 60px;
+    font-family: "Sofadi One", system-ui;
+}
+
+.navlogo img {
+    background-color: #333;
+    width: 5vw;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+    padding: 25px 60px;
+}
+
+.nav-links a:hover {
+    background-color: #444;
+    color: #c4c4c4;
+}
+

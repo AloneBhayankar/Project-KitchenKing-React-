@@ -1,0 +1,2 @@
+
+Do a simple routing where navigation bar can open different pages from each tab

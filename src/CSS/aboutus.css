@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&family=Varela+Round&display=swap');
+
+
+.logo {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px auto;
+    border: 5px solid rgb(112, 255, 122);
+    /* Border color */
+    border-radius: 15px;
+    /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    overflow: hidden;
+    /* Ensure border rounds nicely */
+    cursor: pointer;
+}
+
+.logo img {
+    width: 40vw;
+    transition: transform 0.3s, filter 0.3s;
+    /* Smooth effects */
+}
+
+.logo:hover img {
+    transform: scale(1.05);
+    /* Slight zoom effect on hover */
+    filter: brightness(1.1);
+    /* Brighten image on hover */
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 200;
+}
+.first svg{
+    margin: -20px -10px;
+    padding: 1rem;
+}
+
+.first h1 {
+    font-size: 50px;
+    font-weight: 500;
+    padding: 2vw;
+}
+
+.first h3 {
+    font-size: 25px;
+    font-weight: 200;
+    padding: 0vw 5vw;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 200;
+}
+
+.second h1 {
+    font-size: 50px;
+    font-weight: 500;
+    padding: 5vw 2vw 2vw;
+}
+
+.second h3 {
+    font-size: 25px;
+    font-weight: 200;
+    padding: 0vw 5vw;
+}
+
+.second h4{
+    font-size: 30px;
+    font-weight: 300;
+    padding: 2vw 5vw;
+}
+.second svg{
+    margin: -35px -10px;
+    /* padding: 1rem; */
+}
+.third img{
+    display: block; /* Removes bottom space */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Rounded corners for the image */
+} 
+ .third table{
+    margin: 5vw 2vw;
+ }
+.third th {
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+   text-align: left;
+   padding: 0vw 2vw;
+}
+.third img:hover {
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.6), 0 0 40px rgba(197, 197, 197, 0.4);
+    transition: box-shadow 0.4s ease;
+}
+.third h6{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: #333; */
+    text-align: right;
+    /* border-radius: 10px; */
+    padding: 1vw;
+}
+.third td{
+    font-size: 20px;
+    font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  padding: 1vw 2vw;
+}
+.third h4{
+    text-align: center;
+    font-family: "Kaushan Script", cursive;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 2vw 5vw;
+}
