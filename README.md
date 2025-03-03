@@ -13,5 +13,5 @@
 Kitchen King Website Project:
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
-  <img src="public/home.jpg" alt="KK" style="width: 80%; border: 2px solid white;"/>
+  <img src="/src/Images/home.jpg" alt="KK" style="width: 80%; border: 2px solid white;"/>
 </div>
