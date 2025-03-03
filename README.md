@@ -1,8 +1,17 @@
-# React + Vite
+# Kitchen King
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Kitchen** is your go-to platform for discovering and mastering a wide range of recipes. Featuring detailed ingredients, methods, and step-by-step instructions, this user-friendly website makes cooking easy for everyone. Built with **HTML**, **CSS**, **JavaScript** and **React**, it offers seamless navigation across all devices.
 
-Currently, two official plugins are available:
+## Technology Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **HTML**: provides the structure and content layout of the website, ensuring a well-organized and accessible interface.
+- **CSS**: used for styling the website, creating a visually appealing and responsive design.
+- **JavaScript**: enhances user interaction by adding dynamic features and seamless navigation.
+- **React**: A JavaScript library for building user interfaces.
+
+## Screenshots
+Kitchen King Website Project:
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+  <img src="public/home.jpg" alt="KK" style="width: 80%; border: 2px solid white;"/>
+</div>
