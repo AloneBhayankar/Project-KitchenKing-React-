@@ -1,6 +1,6 @@
 # Kitchen King
 
-**Kitchen** is your go-to platform for discovering and mastering a wide range of recipes. Featuring detailed ingredients, methods, and step-by-step instructions, this user-friendly website makes cooking easy for everyone. Built with **HTML**, **CSS**, **JavaScript** and **React**, it offers seamless navigation across all devices.
+**Kitchen King** is your go-to platform for discovering and mastering a wide range of recipes. Featuring detailed ingredients, methods, and step-by-step instructions, this user-friendly website makes cooking easy for everyone. Built with **HTML**, **CSS**, **JavaScript** and **React**, it offers seamless navigation across all devices.
 
 ## Technology Stack
 
